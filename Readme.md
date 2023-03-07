@@ -24,7 +24,7 @@ python -m venv <virtual enviroment name>
 ```
 - clone  project to this folder
 ``` shell
-git clone https://github.com/your/your-project.git
+git clone https://github.com/mostafanasser2000/RestaurantAPI.git
 ```
 - activate eniviroment
 ```shell
