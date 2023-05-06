@@ -7,8 +7,9 @@ This my implementation to the final project of  [API'S](https://www.coursera.org
 
 ### Prerequisites
 
-    - Python 3.8.10
-    - pip 20.0.2
+```shell
+pip install -r requirements.txt
+```
 
 
 ### Setting up Dev
