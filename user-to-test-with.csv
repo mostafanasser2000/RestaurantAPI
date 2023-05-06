@@ -1,0 +1,10 @@
+username, email, password, role
+admin, admin@gmail.com, admin, super
+mostafa, mostafa@gmail.com,f4dxpRXbhFjntd, manager
+ahmed, ahmed@gmail.com, RZfzb3BXyVboGW, customer
+ali, ali@gmail.com, bMYMejRU2X4szN, crew
+ali: b014a5a6d7e7cf4bba4857b45047b177ad2b0906
+mostafa: 6c20c31e5cf6b284eee416b2f2aa42a15f35d794
+ahmed: de1f4c6c54c2114d650ad7714876f5995b0ab334
+manager manager@gmail.com bMYMejRU2X4szN manager
+delivery delivery@gmail.com bMYMejRU2X4szN delivery-crew
