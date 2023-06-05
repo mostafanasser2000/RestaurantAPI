@@ -1,10 +1,8 @@
 # Description
 This my implementation to the final project of  [API'S](https://www.coursera.org/learn/apis) course from [Meta Back-End Developer Professional Certificate](https://www.coursera.org/professional-certificates/meta-back-end-developer#courses) Using [Django REST FrameWork](https://www.django-rest-framework.org/)
 
-### Preview
 
 
-https://user-images.githubusercontent.com/67506662/236642931-f0ed118d-edf7-49c4-8dda-ce96968a2c20.mp4
 
 
 
