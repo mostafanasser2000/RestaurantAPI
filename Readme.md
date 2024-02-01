@@ -2,21 +2,29 @@
 This my implementation to the final project of  [API'S](https://www.coursera.org/learn/apis) course from [Meta Back-End Developer Professional Certificate](https://www.coursera.org/professional-certificates/meta-back-end-developer#courses) Using [Django REST FrameWork](https://www.django-rest-framework.org/)
 
 
+## Main Features
+*   **User Management**
+    
+    *   Register users, generate authentication tokens, and enforce role-based access control for user types like managers, delivery crew, and customers..
+*   **Menu Items:**
+    
+    *   Perform CRUD operations on menu items, with fine-grained access control based on user roles.
+*   **User Groups:**
+    
+    *   Manage user groups for managers and delivery crew, allowing seamless assignment and removal of users from specific roles.
 
+*   **Cart Management:**
+    
+    *   Enable users to add and remove menu items from their carts, providing a streamlined shopping experience.
+*   **Order Management:**
+    
+    *   Create, update, and view orders with associated order items. Managers and delivery crew can update order statuses.
 
-
-
-# Installing / Getting started (Unix)
-
-
-### Prerequisites
+## Installtion
 
 ```shell
 pip install -r requirements.txt
 ```
-
-
-### Setting up Dev
 
 - Create folder for project
 ```shell
@@ -54,9 +62,7 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-
-# End Points
-
+## End Points
 
 ### User registration and token generation endpoints
 
@@ -114,6 +120,3 @@ python manage.py runserver
 | __/api/orders/{orderId}__ | Manager       | __PUT, PATCH__ | Updates the order. A manager can use this endpoint to set a delivery crew to this order, and also update the order status to 0  or 1.                                                     If a delivery crew is assigned to this order and the status = 0, it means the order is out for delivery.If a delivery crew is assigned to this order and the status = 1, it means the order has been delivered. |
 | __/api/orders/{orderId}__ | Manager       | __DELETE__     | Deletes this order                                                                                                                                                                                                                                                                                                                                                                                        |
 | __/api/orders/{orderId}__ | Delivery crew | __PATCH__      | A delivery crew can use this endpoint to update the order status to 0 or 1. The delivery crew will not be able to update anything else in this order.                                                                                                                                                                                                                                                     |
-
-
-
